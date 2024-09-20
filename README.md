@@ -14,7 +14,7 @@ This is a simple **ATM Simulation** program written in C. It simulates basic fun
 **ATM Menu**: 
    - After launching, the program will display a menu with options:
      ```
-     Welcome to the ATM
+     Welcome to MB ATM
      1. Check Balance
      2. Deposit Money
      3. Withdraw Money
