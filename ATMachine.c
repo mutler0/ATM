@@ -3,11 +3,6 @@
 #include <stdlib.h>
 #include <math.h> 
 #include <stdbool.h>
-//Morgan Butler
-//2/1/24 
-//CIS 2107
-//Lab 03 ATM MACHINE
-//Displaying the balance of the account throughout transcations being made including, withdrawals and deposits.
 
 
 int menuOptions(int remainingBalance);
@@ -70,7 +65,6 @@ int cashWithdrawal(float remainingBalance){//fix limit
             remainingBalance -= amount;
             withdrawalLimit -= amount;
 
-            //printf("\n\tWithlimit updated: $%d\n", withdrawalLimit);
             printf("\nYou successfully withdrew $%.2f.\nYour remaining balance is $%.2f\n", amount, remainingBalance);
 
             printf("\nWould you like a receipt?\n   1 for Yes\t2 for No\n");
